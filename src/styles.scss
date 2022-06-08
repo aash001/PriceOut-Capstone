@@ -1,9 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 header {
   text-align: center;
   margin-top: 20px;
+  font-size: 36px;
+  font-weight: 200;
 }
 
 main {
@@ -21,6 +28,10 @@ form {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+img {
+  max-width: 100%;
 }
 
 input {
@@ -50,4 +61,19 @@ svg {
   width: 24px;
   height: 24px;
   padding: 10px;
+}
+
+.product-image {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  border: #4654e1 solid 5px;
+}
+
+.product-description {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border:grey solid 5px;
+    padding: 10px 0px 10px 0px;
 }
