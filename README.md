@@ -1,6 +1,8 @@
 # PriceOut
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+A pricing tool used to quickly perform comparative pricing on products amongst multiple retailers at the same time.
+
+Netlify: https://taupe-kitten-7c8ac8.netlify.app
 
 ## Development server
 
