@@ -31,9 +31,10 @@
         </svg></button>
     </form>
   </main>
-  <app-image-landing [description]='"Product description"'
-    [imageUrl]="'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRNn5MAUl6HR5wRr-dN5ZAh8d3dfAaGEYNU4GEvPislaz8Czg0LnGVjrSjz-qkNg47mQNgexTsFnbu7KwFeS4jXe6QZn4-qCFAfqIsQ3R1AhvIVNSHI6cyb&usqp=CAE'">
-  </app-image-landing>
+  <div *ngFor="let product of product">
+    <app-image-landing [description]="product.description" [imageUrl]="product.imageUrl">
+    </app-image-landing>
+  </div>
 </body>
 
 </html>
